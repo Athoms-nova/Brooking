@@ -1,0 +1,54 @@
+
+
+.connection, .connection-modal {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .form-floating {
+      width: 300px;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      margin-bottom: 20px;
+      width: 130px;
+    }
+
+    .alert {
+      text-align: center;
+      padding: 2px 20px 2px 20px;
+      color: red;
+      background-color: rgba(255, 0, 0, 0.216);
+      border: none;
+    }
+    .form-connection,.form-connection-reset, .form-connection-top, .form-connection-bottom, .form-connection-sans-animation {
+      max-width: 450px;
+      border: solid;
+      padding: 20px 40px 20px 40px;
+      margin: 40px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    .form-connection-reset{
+      transform: translateX(-200%);
+    }
+
+    .form-connection-top{
+      transform: translateY(-150%);
+    }
+
+    
+}
+
+.connection{
+  width: 50%;
+}

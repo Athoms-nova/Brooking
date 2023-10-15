@@ -1,0 +1,62 @@
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    background-color: white;
+    z-index: 4;
+
+    .logo{
+        margin-left: 10px;
+        font-size: 28px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 228, 196, 0);
+        border: none;
+    }
+    .logo:hover{
+        color: rgb(20, 20, 255);
+    }
+
+    button, .option{
+        margin-right: 15px;
+    }
+
+    .option{
+        background-color: rgba(240, 248, 255, 0);
+        border: none;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .button-deco{
+        background-color: rgba(255, 38, 38, 0.726);
+        border: black 1px solid;
+    }
+
+    .button-deco:hover{
+        background-color: red;
+    }
+
+    .authentification{
+        display: flex;
+        align-items: center;
+        h1{
+            font-size: 21px;
+            margin-right: 20px;
+            padding: 10px 3px 3px 3px;
+        }
+        h1:hover{
+            color: rgb(20, 20, 255);
+        }
+    }
+}

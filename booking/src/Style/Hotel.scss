@@ -1,0 +1,51 @@
+
+
+.hotel{
+    margin-top: 100px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    .hotel-presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 22px;
+            margin: 0;
+        }
+
+        h2{
+            font-size: 18px;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .info-adress{
+            display: flex;
+            justify-content: center;
+            h2{
+                margin : 0 40px 0 40px;
+                font-weight: bold;
+            }
+
+            button{
+                font-size: 18px;
+                padding: 3px 18px 3px 18px;
+            }
+        }
+
+        .carousel{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 60%;
+            img{
+                border-radius: 20px;
+            }
+        }
+
+        .hotel-information{
+            width: 40%;
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+
+
+.nos-hotels, .nos-hotels-reset{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .liste-hotel{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,219 @@
+
+@keyframes presentation-push-auth {
+  0% {transform: translateX(50%);}
+  100%{transform: translateX(0%);}
+}
+
+@keyframes presentation-home {
+  0% {transform: translateX(0%);}
+  100%{transform: translateX(50%);}
+}
+
+@keyframes presentation-top{
+  0% {transform: translateY(-100%);}
+  100%{transform: translateY(0%);}
+}
+
+@keyframes presentation-end{
+  0% {transform: translateY(0%);}
+  100%{transform: translateY(-100%);}
+}
+
+@keyframes connection-go{
+  0%{
+    visibility: hidden;
+    transform: translateX(-200%);
+  }
+  50%{
+    visibility: visible;
+    transform: translateX(-200%);
+  }
+  100%{
+    transform: translate(0%);
+  }
+}
+
+@keyframes connection-reset{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes connection-top{
+  0%{
+    transform: translateY(0%);
+  }
+  100%{
+    transform: translateY(-150%);
+  }
+}
+
+@keyframes connection-bottom{
+  0%{
+    transform: translateY(-150%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+.home {
+  .corp-presentation-droit {
+    animation: presentation-home;
+    animation-duration: 0.5s;
+  }
+
+  .corp-presentation-gauche{
+    animation: presentation-push-auth;
+    animation-duration: 0.5s;
+  }
+
+  .presentation-home{
+    animation: presentation-top;
+    animation-duration: 0.5s;
+  }
+
+  .presentation-home-end{
+    animation: presentation-end;
+    animation-duration: 0.5s;
+  }
+
+
+  .form-connection {
+    animation: connection-go;
+    animation-duration: 1s;
+  }
+
+
+  .form-connection-reset{
+    animation: connection-reset;
+    animation-duration: 0.5s;
+  }
+
+  .form-connection-top {
+    animation: connection-top;
+    animation-duration: 1s;
+  }
+
+  .form-connection-bottom {
+    animation: connection-bottom;
+    animation-duration: 1s;
+  }
+
+/*   .connection {
+    animation: connection-home;
+    animation-duration: 2s;
+  } */
+}
+
+@keyframes navigation {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  80% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+/* .navigation {
+  animation: navigation;
+  animation-duration: 1s;
+} */
+
+
+@keyframes page-hotels {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes card-hotels {
+  0% {
+    transform: translateY(-15%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes card-hotels-reset {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes page-hotels-reset {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* .nos-hotels h1{
+  animation: title-page-hotels;
+  animation-duration: 2.5s;
+} */
+
+.nos-hotels-reset{
+  animation: page-hotels-reset;
+  animation-duration: 1.2s;
+}
+
+.nos-hotels{
+  animation: page-hotels;
+  animation-duration: 1.2s;
+}
+
+.card-hotels-reset{
+  animation: card-hotels-reset;
+  animation-duration: 1s;
+}
+
+@keyframes profil {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes profil-reset {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+.profil .corp{
+  animation: profil;
+  animation-duration: 1s;
+}
+
+.profil .corp-reset{
+  animation: profil-reset;
+  animation-duration: 1s;
+}

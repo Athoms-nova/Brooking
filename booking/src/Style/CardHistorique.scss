@@ -1,0 +1,67 @@
+
+.card-historique{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .img-historique{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .card{
+        max-width: 800px;
+        .card-text{
+            margin: 0;
+        }
+        .card-header{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: rgb(21, 0, 255);
+            text-align: center;
+        }
+
+        .card-body {
+            display: flex;
+            justify-content: space-between;
+            .prix {
+              font-size: 20px;
+              text-align: center;
+              font-family: "Times New Roman", Times, serif;
+              font-weight: bold;
+            }
+        }
+
+        .card-right{
+            width: 65%;
+            padding: 10px;
+            padding-right: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: start;
+            font-weight: bold;
+        }
+
+        .card-footer{
+            text-align: end;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            h2{
+                font-size: 23px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .card:hover{
+        transform: scale(101%);
+        border: solid rgba(255, 0, 0, 0.589);
+        box-shadow: 3px 3px 3px 3px rgba(255, 0, 0, 0.384);
+        cursor: default;
+    }
+}
+
